@@ -63,7 +63,7 @@ app.get('/edit/:id', function (req, res) {
   });
 });
 
-app.get('/add/:id', function (req, res) {
+app.get('/add', function (req, res) {
   res.render('pages/add');
 });
   app.post('/saveAdd', function (req, res) {
@@ -76,11 +76,10 @@ app.get('/add/:id', function (req, res) {
     if (err) throw err;
     var dbo = db.db("Students");
     var newclass = {
-      Students_id: id,
-      Students_name: name,
+      Student_id: id,
+      Student_name: name,
       years: years,
       major: major
-      
 
     }
     dbo.collection("Studentdetails").insertOne(newclass, function (err, result) {
@@ -118,7 +117,7 @@ app.get('/Delete/:id', function (req, res) {
   MongoClient.connect(url, options, function (err, db) {
       if (err) throw err;
       var dbo = db.db("Students");
-      var query = { ID: id };
+      var query = { Student_id: id };
       dbo.collection("Studentdetails")
           .deleteOne(query, function (err, result) {
               if (err) throw err;
