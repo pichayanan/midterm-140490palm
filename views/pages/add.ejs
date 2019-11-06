@@ -1,0 +1,34 @@
+<% include ../partials/header %>
+<div class="container">
+    <h1>Add</h1>
+<form action="/saveAdd" method="POST">
+   
+<div class="form-group">
+  <label for="">Students ID</label>
+  <input type="text" value=""
+    class="form-control" value=""  name="id" id="" aria-describedby="helpId" placeholder="">
+  <small id="helpId" class="form-text text-muted">Help text</small>
+</div>
+<div class="form-group">
+    <label for="">Name</label>
+    <input type="text"
+      class="form-control" value=""  name="name" id="" aria-describedby="helpId" placeholder="">
+    <small id="helpId" class="form-text text-muted">Help text</small>
+  </div>
+  <div class="form-group">
+    <label for="">Years</label>
+    <input type="text"
+      class="form-control" value="" name="years" id="" aria-describedby="helpId" placeholder="">
+    <small id="helpId" class="form-text text-muted">Help text</small>
+  </div>
+  <div class="form-group">
+    <label for="">Major</label>
+    <input type="text"
+      class="form-control" value=""name="major" id="" aria-describedby="helpId" placeholder="">
+    <small id="helpId" class="form-text text-muted">Help text</small>
+  </div>
+
+  <button type="submit"class="btn btn-primary">save</button>
+</form>
+</div>
+<% include ../partials/footer %>

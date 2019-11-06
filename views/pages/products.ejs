@@ -1,0 +1,37 @@
+<% include ../partials/header %>
+<div class="container">
+
+    <h1>Students In Class</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Years</th>
+                <th>Major</th>
+                <th>Action </th>
+                <left><th><a name="" id="" class="btn btn-primary" href="/add" role="button">Add new Students</a></th></left>
+              
+            </tr>
+        </thead>
+        <tbody>
+            <%classes.forEach(function(pro){ %>
+            <tr>
+
+                <td scope="row"><a href="/productdetails/<%=pro.Student_id%>"> <%=pro.Student_id%> </a></td>
+                    <td><%=pro.Student_name%></td>
+                    <td><%=pro.years%></td>
+                    <td><%=pro.major%></td>
+                    <td><a name="" id="" class="btn btn-primary" href="/edit/<%=pro.Student_id%>" role="button">Edit</a>
+                        <a name="" id="" class="btn btn-primary" href="/productdetails/<%=pro.Student_id%>" role="button">View</a>
+                        <a name="" id="" class="btn btn-primary" href="/Delete/<%=pro.Student_id%>" role="button">Delete</a></td>
+                </tr>
+                <%});%>
+            </tbody>
+        </table>
+
+
+   
+</div>
+<% include ../partials/footer %>

@@ -1,0 +1,89 @@
+/* 1 */
+{
+    "_id" : ObjectId("5d9e9812342534a81b7ba8e5"),
+    "Student_id" : "6030213046",
+    "Student_name" : "Pichayanan Prommoon",
+    "years" : "3",
+    "major" : "SE"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5d9e9822342534a81b7ba8f1"),
+    "Student_id" : "6030213001",
+    "Student_name" : "Kondee Mejai",
+    "years" : "3",
+    "major" : "SE"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5d9e983b342534a81b7ba8ff"),
+    "Student_id" : "6030213002",
+    "Student_name" : "Jula meluk",
+    "years" : "2",
+    "major" : "IT"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("5d9e9875342534a81b7ba915"),
+    "Student_id" : "6030213003",
+    "Student_name" : "Key Mejai",
+    "years" : "3",
+    "major" : "IT"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("5d9e9897342534a81b7ba924"),
+    "Student_id" : "6030213004",
+    "Student_name" : "Korn Tanseng",
+    "years" : "3",
+    "major" : "SE"
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("5d9e98b4342534a81b7ba92b"),
+    "Student_id" : "6030213005",
+    "Student_name" : "Keaw jai",
+    "years" : "4",
+    "major" : "Comp"
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("5d9e98dc342534a81b7ba947"),
+    "Student_id" : "6030213007",
+    "Student_name" : "kim Punpun",
+    "years" : "1",
+    "major" : "Comp"
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("5d9e990d342534a81b7ba958"),
+    "Student_id" : "6030213008",
+    "Student_name" : "Namhom Saimai",
+    "years" : "1",
+    "major" : "IT"
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("5d9e992a342534a81b7ba95f"),
+    "Student_id" : "6030213009",
+    "Student_name" : "sahatsawat Mamu",
+    "years" : "1",
+    "major" : "Comp"
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("5d9e99a3342534a81b7ba98d"),
+    "Student_id" : "6030213057",
+    "Student_name" : "Dodee Munjai",
+    "years" : "4",
+    "major" : "IT"
+}
